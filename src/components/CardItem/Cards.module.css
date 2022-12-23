@@ -1,0 +1,107 @@
+.cardContainer {
+  position: relative;
+  width: 454px;
+  height: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+.cardContainer::after {
+  position: absolute;
+  top: 209px;
+  content: '';
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: #ebd8ff;
+  box-shadow: 0px 5.11111px 5.11111px rgba(0, 0, 0, 0.06),
+    inset 0px -2.55556px 5.11111px #ae7be3,
+    inset 0px 5.11111px 3.83333px #fbf8ff;
+}
+
+.cardContainer::before {
+  position: absolute;
+  top: 251px;
+  content: '';
+  height: 8px;
+  width: 100%;
+  background: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 34px;
+  left: 52px;
+  width: 357px;
+  height: 194px;
+  background-image: url('../../images/picture.png');
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 88px;
+  height: 26px;
+}
+
+.userPhoto {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 42px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stats {
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  font-weight: 500;
+  color: #ebd8ff;
+}
+
+.stats:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.stats:last-of-type {
+  margin-bottom: 32px;
+}
+
+.followBtn {
+  min-width: 226px;
+  margin-bottom: 48px;
+  padding: 16px 47px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 12px;
+  color: #373737;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: inherit;
+}
+
+.followBtnActive {
+  background-color: #5cd3a8;
+}

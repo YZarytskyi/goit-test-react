@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "https://png.pngtree.com/png-vector/20200329/ourlarge/pngtree-character-avatar-of-businessman-with-beard-png-image_2166772.jpg"
+    },
+    {
+      "id": 2,
+      "user": "Mila",
+      "tweets": 651,
+      "followers": 80052,
+      "avatar": "https://w7.pngwing.com/pngs/129/94/png-transparent-computer-icons-avatar-icon-design-male-teacher-face-heroes-logo-thumbnail.png"
+    },
+    {
+      "id": 3,
+      "user": "John",
+      "tweets": 241,
+      "followers": 9159,
+      "avatar": "https://w7.pngwing.com/pngs/312/283/png-transparent-man-s-face-avatar-computer-icons-user-profile-business-user-avatar-blue-face-heroes-thumbnail.png"
+    },
+    {
+      "id": 4,
+      "user": "Andrew",
+      "tweets": 351,
+      "followers": 11055,
+      "avatar": "https://img.freepik.com/vetores-premium/empresario-personagem-avatar-icone-vector-ilustracao-design_24877-18271.jpg?w=2000"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+The app displays a list of user tweet cards from a database. When clicking on the "Follow" button, it is possible to subscribe to the user. All changes are saved and available when the page is reloaded.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
