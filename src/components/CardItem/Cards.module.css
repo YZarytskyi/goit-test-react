@@ -18,19 +18,6 @@
   text-transform: uppercase;
 }
 
-.cardContainer::after {
-  position: absolute;
-  top: 209px;
-  content: '';
-  width: 92px;
-  height: 92px;
-  border-radius: 50%;
-  background: #ebd8ff;
-  box-shadow: 0px 5.11111px 5.11111px rgba(0, 0, 0, 0.06),
-    inset 0px -2.55556px 5.11111px #ae7be3,
-    inset 0px 5.11111px 3.83333px #fbf8ff;
-}
-
 .cardContainer::before {
   position: absolute;
   top: 251px;
@@ -58,6 +45,20 @@
   left: 24px;
   width: 88px;
   height: 26px;
+}
+
+.userPhotoContainer {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 32px;
+  padding: 10px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: #ebd8ff;
+  box-shadow: 0px 5.11111px 5.11111px rgba(0, 0, 0, 0.06),
+    inset 0px -2.55556px 5.11111px #ae7be3,
+    inset 0px 5.11111px 3.83333px #fbf8ff;
 }
 
 .userPhoto {

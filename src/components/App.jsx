@@ -1,5 +1,5 @@
 import data from '../data/users.json';
-import CardItem from './CardItem/CardItem';
+import { CardItem } from './CardItem/CardItem';
 import style from './App.module.css';
 
 export const App = () => {
